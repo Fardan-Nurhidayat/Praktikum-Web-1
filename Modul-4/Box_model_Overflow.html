@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model & OverFlow</title>
+    <style>
+      .margin p {
+        background: orange;
+        width: 160px;
+        height: 160px;
+        margin: 20px auto;
+      }
+      .padding p {
+        background: blue;
+        width: 160px;
+        height: 160px;
+        padding: 20px;
+      }
+      .border p {
+        background-color: aqua;
+        width: 160px;
+        height: 160px;
+        padding: 10px;
+        border: 6px solid red;
+        border-radius: 8px;
+      }
+      .box-sizing p {
+        background: orange;
+        width: 160px;
+        height: 160px;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .overflow p {
+        background:green;
+        width: 160px;
+        height: 160px;
+        padding: 20px;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="margin">
+      <h3>Margin</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
+        tempora!
+      </p>
+    </div>
+    <hr />
+    <div class="padding">
+      <h3>Padding</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ea?
+      </p>
+    </div>
+    <hr />
+    <div class="border">
+      <h3>Border</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, quidem.
+      </p>
+    </div>
+    <hr />
+    <div class="box-sizing">
+      <h3>Box Sizing</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt,
+        sunt!
+      </p>
+    </div>
+    <hr />
+    <div class="overflow">
+      <h3>OverFlow</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, dolorem similique repellendus dolorum dolor corrupti.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, rerum?
+      </p>
+    </div>
+  </body>
+</html>

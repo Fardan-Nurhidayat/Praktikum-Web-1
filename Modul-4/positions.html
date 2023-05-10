@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position</title>
+  <style>
+    .static div {
+      width: 100px;
+      height: 100px;
+    }
+
+    div .satu , .dua , .Tiga {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .satu {
+      background-color: blue;
+    }
+    .dua {
+      background-color: red;
+    }
+    .Tiga {
+      background-color: green;
+    }
+
+    .relative div {
+      width: 100px;
+      height: 100px;
+    }
+    .relatve .dua {
+      position: relative;
+    }
+
+    .absolute div {
+      width: 100px;
+      height: 100px;
+    }
+
+    .absolute .dua {
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div class="static">
+    <div class="satu">STATIC</div>
+    <div class="dua">STATIC</div>
+    <div class="Tiga">STATIC</div>
+  </div>
+  <br>
+  <br>
+  <div class="relative">
+    <div class="satu">STATIC</div>
+    <div class="dua">Relative</div>
+    <div class="Tiga">STATIC</div>
+  </div>
+
+  <br>
+  <br>
+  <div class="absolute">
+    <div class="satu">STATIC</div>
+    <div class="dua">Absolute</div>
+    <div class="Tiga">STATIC</div>
+  </div>
+</body>
+</html>

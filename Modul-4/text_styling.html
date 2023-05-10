@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Styling</title>
+  </head>
+  <style>
+    .color p {
+      color: blue;
+    }
+    .indent p {
+      text-indent: 50px;
+    }
+
+    .decoration .overline {
+      text-decoration: overline;
+    }
+    .decoration .through {
+      text-decoration: line-through;
+    }
+    .decoration .underline {
+      text-decoration: underline;
+    }
+    .decoration .none {
+      text-decoration: none;
+    }
+    h1.uppercase {
+      text-transform: uppercase;
+    }
+    h1.lowercase {
+      text-transform: lowercase;
+    }
+    h1.capitalize {
+      text-transform: capitalize;
+    }
+    h1.none {
+      text-transform: none;
+    }
+    h1 {
+      letter-spacing: 2px;
+    }
+    h2 {
+      letter-spacing: -2px;
+    }
+    spasi1 {
+      word-spacing: 10px;
+    }
+    .spasi2 {
+      word-spacing: -5px;
+    }
+  </style>
+  <body>
+    <div class="color">
+      <h3>Style Warna</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+        veritatis!
+      </p>
+    </div>
+    <div class="text-align">
+      <h3>Text Align</h3>
+      <p align="left">LEFT</p>
+      <p align="center">CENTER</p>
+      <p align="right">LEFT</p>
+      <p align="justify">JUSTIFY</p>
+    </div>
+    <br />
+    <div class="indent">
+      <h3>Text Indent</h3>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis odit
+        repellat, autem eaque doloribus cumque libero! Minima architecto
+        repellendus non!
+      </p>
+    </div>
+
+    <div class="decoration">
+      <h3>Text Decoration</h3>
+      <br />
+      <h1 class="overline">overline</h1>
+      <h1 class="through">through</h1>
+      <h1 class="underline">underline</h1>
+      <h1 class="none">none</h1>
+    </div>
+
+    <div class="text-transform">
+      <h1 class="uppercase">uppercase</h1>
+      <h1 class="lowercase">lowercase</h1>
+      <h1 class="capitalize">capitalize</h1>
+      <h1 class="none">none</h1>
+    </div>
+    <br />
+    <h3>Letter Spacing</h3>
+    <h1>Spasi 2px</h1>
+    <h2>Spasi -2px</h2>
+    <br />
+    <h3>Word-Spacing</h3>
+    <h1 class="spasi1">Ini adalah Spasi 10px</h1>
+    <h1 class="spasi2">Ini adalah Spasi -5px</h1>
+  </body>
+</html>
